@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 600px;
+    width: 95%;
+    margin: 40px auto;
+}
+
+.main_title {
+    background-color: rgba(59,191,218);
+    border-radius: 16px 16px 0 0;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 16px;
+    text-align: center;
+}
+
+.message_field {
+    background: rgba(228,249,250);
+    height: 65vh;
+    overflow-y: scroll;
+    padding: 16px;
+}
+
+.message_text{
+    position: relative;
+    border-radius: 8px;
+    padding: 8px;
+    line-height: 1.4;
+    max-width: 400px;
+    min-width: 70px;
+    width: fit-content;
+}
+
+.right_message_text {
+    background-color: #85e249;
+    margin: 0 10px 8px auto;
+}
+
+.right_message_text::before {
+    display: block;
+    border-left: 20px solid #85e249;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    content: "";
+    position: absolute;
+    left:  100%;
+}
+
+.right_message_date {
+    font-size: 12px;
+    text-align: right;
+    padding-right: 0;
+}
+
+.left_message_text {
+    background-color: #fff;
+    margin: 0 auto 8px 5px;
+}
+
+.left_message_date {
+    font-size: 12px;
+}
+
+.message_form {
+    padding: 16px;
+    background-color: lightgray;
+    border-radius: 0 0 16px 16px;
+}
+
+.submit_box {
+    width: 75%;
+}
+
+.submit_button {
+    background-color: rgba(59,191,218);
+    color: #fff;
+    padding: 4px 8px;
+}
